@@ -1,0 +1,44 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+}
+ul {
+  padding: 0%;
+  list-style-type: none;
+  margin: 0%;
+}
+li {
+  float: left;
+}
+a {
+  display: block;
+  width: 150px;
+  background-color: brown;
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+  text-align: center;
+  font-size: large;
+}
+/*Hover effect for active element*/
+a:hover {
+  background-color: orange;
+}
+/* Media query is used for responsive website */
+@media (max-width: 900px) {
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  a {
+    width: 250px;
+  }
+}
